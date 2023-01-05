@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3A533F29677F2E0037328A /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A533E29677F2E0037328A /* FollowerListVC.swift */; };
 		4ECB19BC2964B8580008737B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19BB2964B8580008737B /* AppDelegate.swift */; };
 		4ECB19BE2964B8580008737B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19BD2964B8580008737B /* SceneDelegate.swift */; };
 		4ECB19C02964B8580008737B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19BF2964B8580008737B /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E3A533E29677F2E0037328A /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		4ECB19B82964B8580008737B /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECB19BB2964B8580008737B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ECB19BD2964B8580008737B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				4ECB19BF2964B8580008737B /* ViewController.swift */,
 				4ECB19CF2964D1B40008737B /* SearchVC.swift */,
 				4ECB19D22964D2980008737B /* FavoritesList.swift */,
+				4E3A533E29677F2E0037328A /* FollowerListVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				4ECB19C02964B8580008737B /* ViewController.swift in Sources */,
 				4ECB19BC2964B8580008737B /* AppDelegate.swift in Sources */,
 				4ECB19BE2964B8580008737B /* SceneDelegate.swift in Sources */,
+				4E3A533F29677F2E0037328A /* FollowerListVC.swift in Sources */,
 				4ECB19D8296639C10008737B /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

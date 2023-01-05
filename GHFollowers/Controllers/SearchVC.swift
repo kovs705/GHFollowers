@@ -22,6 +22,7 @@ class SearchVC: UIViewController {
         configureTextfield()
         configureButton()
         
+        dismissKeyboard()
     }
     
     
@@ -57,11 +58,40 @@ class SearchVC: UIViewController {
     func configureButton() {
         view.addSubview(loginButton)
         
+        loginButton.addTarget(self, action: #selector(pushFollowerListVC), for: .touchUpInside)
+        
         NSLayoutConstraint.activate([
             loginButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
             loginButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
             loginButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             loginButton.heightAnchor.constraint(equalToConstant: 50),
         ])
+    }
+    
+    
+    // MARK: - Keyboard
+    func dismissKeyboard() {
+        let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+    }
+    
+    
+    // MARK: - Data
+    @objc func pushFollowerListVC() {
+        let followerListVC = FollowerListVC()
+        followerListVC.username = usernameTextfield.text
+        followerListVC.title = usernameTextfield.text
+        navigationController?.pushViewController(followerListVC, animated: true)
+    }
+    
+}
+
+
+
+extension SearchVC: UITextFieldDelegate {
+    // listen to username textfield
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        print("Did tapped return")
+        return true
     }
 }
