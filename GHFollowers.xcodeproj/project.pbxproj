@@ -20,6 +20,7 @@
 		4ECB19D32964D2980008737B /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19D22964D2980008737B /* FavoritesList.swift */; };
 		4ECB19D6296636CA0008737B /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19D5296636CA0008737B /* GFButton.swift */; };
 		4ECB19D8296639C10008737B /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19D7296639C10008737B /* GFTextField.swift */; };
+		4EF2DD6F29698F3B007F8C44 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2DD6E29698F3B007F8C44 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		4ECB19D22964D2980008737B /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 		4ECB19D5296636CA0008737B /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		4ECB19D7296639C10008737B /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		4EF2DD6E29698F3B007F8C44 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				4ECB19BF2964B8580008737B /* ViewController.swift */,
+				4EF2DD6E29698F3B007F8C44 /* UIViewController+Ext.swift */,
 				4ECB19CF2964D1B40008737B /* SearchVC.swift */,
 				4ECB19D22964D2980008737B /* FavoritesList.swift */,
 				4E3A533E29677F2E0037328A /* FollowerListVC.swift */,
@@ -176,6 +179,7 @@
 			files = (
 				4ECB19D32964D2980008737B /* FavoritesList.swift in Sources */,
 				4ECB19D02964D1B40008737B /* SearchVC.swift in Sources */,
+				4EF2DD6F29698F3B007F8C44 /* UIViewController+Ext.swift in Sources */,
 				4ECB19D6296636CA0008737B /* GFButton.swift in Sources */,
 				4ECB19C02964B8580008737B /* ViewController.swift in Sources */,
 				4ECB19BC2964B8580008737B /* AppDelegate.swift in Sources */,
