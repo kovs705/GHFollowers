@@ -92,6 +92,18 @@
 			path = Utilites;
 			sourceTree = "<group>";
 		};
+		4E5F104729717DD900045B72 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB19D5296636CA0008737B /* GFButton.swift */,
+				4ECB19D7296639C10008737B /* GFTextField.swift */,
+				4EBBCB1A2968C21E00D07E2F /* GFTitleLabel.swift */,
+				4EBBCB1C2968CB5E00D07E2F /* GFBodyLabel.swift */,
+				4E16FE5D296EBE1A00F31E8B /* GFAvatarImageView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 		4EACF396296A32F700FF0C14 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,11 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				4E16FE5A296EBD6500F31E8B /* Cells */,
-				4ECB19D5296636CA0008737B /* GFButton.swift */,
-				4ECB19D7296639C10008737B /* GFTextField.swift */,
-				4EBBCB1A2968C21E00D07E2F /* GFTitleLabel.swift */,
-				4EBBCB1C2968CB5E00D07E2F /* GFBodyLabel.swift */,
-				4E16FE5D296EBE1A00F31E8B /* GFAvatarImageView.swift */,
+				4E5F104729717DD900045B72 /* Subviews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
