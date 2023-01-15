@@ -28,6 +28,7 @@
 		4ECB19D32964D2980008737B /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19D22964D2980008737B /* FavoritesList.swift */; };
 		4ECB19D6296636CA0008737B /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19D5296636CA0008737B /* GFButton.swift */; };
 		4ECB19D8296639C10008737B /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB19D7296639C10008737B /* GFTextField.swift */; };
+		4EE9F70F297381860092630C /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F70E297381860092630C /* UserInfoVC.swift */; };
 		4EF2DD6F29698F3B007F8C44 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2DD6E29698F3B007F8C44 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		4ECB19D22964D2980008737B /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 		4ECB19D5296636CA0008737B /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		4ECB19D7296639C10008737B /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		4EE9F70E297381860092630C /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		4EF2DD6E29698F3B007F8C44 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +167,7 @@
 				4ECB19CF2964D1B40008737B /* SearchVC.swift */,
 				4ECB19D22964D2980008737B /* FavoritesList.swift */,
 				4E3A533E29677F2E0037328A /* FollowerListVC.swift */,
+				4EE9F70E297381860092630C /* UserInfoVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				4E16FE5C296EBD8400F31E8B /* FollowerCell.swift in Sources */,
 				4E16FE5E296EBE1A00F31E8B /* GFAvatarImageView.swift in Sources */,
 				4EBBCB1F2968CD1200D07E2F /* GFAlertVC.swift in Sources */,
+				4EE9F70F297381860092630C /* UserInfoVC.swift in Sources */,
 				4EACF399296A338700FF0C14 /* Follower.swift in Sources */,
 				4ECB19BE2964B8580008737B /* SceneDelegate.swift in Sources */,
 				4EBBCB1B2968C21E00D07E2F /* GFTitleLabel.swift in Sources */,
