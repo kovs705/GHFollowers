@@ -33,6 +33,7 @@
 		4EE9F71129738D1B0092630C /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9F71029738D1B0092630C /* GFSecondaryTitleLabel.swift */; };
 		4EF2DD6F29698F3B007F8C44 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2DD6E29698F3B007F8C44 /* UIViewController+Ext.swift */; };
 		4EF962AF297621CB0081365B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF962AE297621CB0081365B /* Constants.swift */; };
+		4EF962B129780E2A0081365B /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF962B029780E2A0081365B /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		4EE9F71029738D1B0092630C /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		4EF2DD6E29698F3B007F8C44 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		4EF962AE297621CB0081365B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4EF962B029780E2A0081365B /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4EBBCB1C2968CB5E00D07E2F /* GFBodyLabel.swift */,
 				4E16FE5D296EBE1A00F31E8B /* GFAvatarImageView.swift */,
 				4E5F1048297195F200045B72 /* GFEmptyStateView.swift */,
+				4EF962B029780E2A0081365B /* GFItemInfoView.swift */,
 				4EE9F71029738D1B0092630C /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Subviews;
@@ -291,6 +294,7 @@
 				4E5F10462971731F00045B72 /* UIHelper.swift in Sources */,
 				4E17EB1D296ABA420028F438 /* NetworkManager.swift in Sources */,
 				4ECB19D8296639C10008737B /* GFTextField.swift in Sources */,
+				4EF962B129780E2A0081365B /* GFItemInfoView.swift in Sources */,
 				4EBBCB1D2968CB5E00D07E2F /* GFBodyLabel.swift in Sources */,
 				4EF962AF297621CB0081365B /* Constants.swift in Sources */,
 			);
