@@ -7,7 +7,7 @@
 
 import Foundation
 
-class GFRepoItemVC: GFItemItemVC {
+class GFRepoItemVC: GFIteminfoVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,8 @@ class GFRepoItemVC: GFItemItemVC {
         actionButton.set(backgroundColor: .systemPurple, title: "GitHub Profile")
     }
     
-    
+    override func actionButtonTapped() {
+        delegate.didTapGitHubProfile(for: user)
+    }
     
 }

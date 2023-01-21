@@ -8,7 +8,7 @@
 import UIKit
 
 
-class GFFollowerItemVC: GFItemItemVC {
+class GFFollowerItemVC: GFIteminfoVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +24,9 @@ class GFFollowerItemVC: GFItemItemVC {
         actionButton.set(backgroundColor: .systemGreen, title: "GitHub Followers")
     }
     
+    override func actionButtonTapped() {
+        delegate.didTapGetFollowers(for: user)
+    }
     
     
 }
