@@ -27,7 +27,7 @@ class FollowerListVC: UIViewController {
         super.viewDidLoad()
         
         configureViewController()
-        configureCV()
+        configureCV() 
         configureSearchController()
         getFollowers(username: username, page: page)
         
@@ -44,6 +44,7 @@ class FollowerListVC: UIViewController {
         view.addSubview(collectionView)
         
         collectionView.delegate = self
+        collectionView.alwaysBounceVertical = true
         
         collectionView.backgroundColor = .systemBackground
         collectionView.register(FollowerCell.self, forCellWithReuseIdentifier: FollowerCell.reuseID)
@@ -55,7 +56,7 @@ class FollowerListVC: UIViewController {
     }
     
     func configureDataSource() {
-        dataSource = UICollectionViewDiffableDataSource<Section, Follower>(collectionView: collectionView, cellProvider: { collectionView, indexPath, follower in
+        dataSource = UICollectionViewDiffableDataSource<Section, Follower>(collectionView: collectionView, cellProvider: { (collectionView, indexPath, follower) -> UICollectionViewCell? in
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FollowerCell.reuseID, for: indexPath) as! FollowerCell
             cell.set(follower: follower)
             return cell
@@ -133,7 +134,7 @@ extension FollowerListVC: UICollectionViewDelegate {
         destVC.username = follower.login
         
         let navController = UINavigationController(rootViewController: destVC)
-        present(destVC, animated: true)
+        present(navController, animated: true)
     }
 }
 extension FollowerListVC: UISearchResultsUpdating, UISearchBarDelegate {
