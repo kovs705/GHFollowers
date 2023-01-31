@@ -24,5 +24,5 @@ struct User: Codable {
     let following: Int
     let followers: Int
     
-    let createdAt: String
+    let createdAt: Date
 }
