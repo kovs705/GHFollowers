@@ -214,7 +214,6 @@
 				4ECA4F52297442B80012A08E /* GFUserInfoHeaderVC.swift */,
 				4EABB6052986EDB9001CBDAE /* GFTabBarController.swift */,
 				4EE2375D297BFB35007F2FE8 /* ItemVC */,
-				4E1020B8298979B6004F0FF8 /* GFDataLoadingVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -234,6 +233,7 @@
 				4EDAB029297B4AC300407452 /* GFIteminfoVC.swift */,
 				4EE2375B297BFB05007F2FE8 /* GFFollowerItemVC.swift */,
 				4EBB14C6297C2CB90025FE95 /* GFRepoItemVC.swift */,
+				4E1020B8298979B6004F0FF8 /* GFDataLoadingVC.swift */,
 			);
 			path = ItemVC;
 			sourceTree = "<group>";
